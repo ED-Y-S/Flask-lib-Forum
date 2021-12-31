@@ -1,2 +1,2 @@
 # Flask-lib Forum
-<img src="Delink.jpg" alt="Delink" width='400px' height='360px'>
+<img src="Delink.png" alt="Delink" width='400px' height='360px'>
