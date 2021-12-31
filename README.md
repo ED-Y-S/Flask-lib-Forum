@@ -1,5 +1,5 @@
 # Flask-lib Forum
-<img src="Delink.png" alt="Delink" width='535px' height='360px'>
+<img src="Delink.png" alt="Delink" width='545px' height='360px'>
 
 **This project is a rather basic but an integral process of webpage UI designs and system deigns: the combination of SQL, HTML, CSS, and Python (FLask lib).**
 
