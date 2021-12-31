@@ -1,0 +1,36 @@
+
+<head>
+    <title>
+        Welcome to Delink!
+    </title>
+    <link rel="stylesheet" href="/static/database.css">
+    <meta name="Description" content="Delink The Forum">
+</head>
+<body>
+    {% extends 'base.html' %}
+</body>
+{% block title %}
+<div class="center">
+    
+    <p><strong><h2>Weclome to the Delink Forum!</h2></strong></p>
+{% endblock %}
+    <hr/>
+{% block content %}
+    <img src="/static/delink.png" width=300px length=600px alt= "Your image did not load :("/>
+   
+    <p><h3><b>Newest Comments</b></h3></p>
+
+</div>
+    
+    <table id="center_table" border=1 cellpadding=5>
+        <td>USERNAME</td><td>MESSAGE</td><td>TIME</td><td>AGE</td>
+        {% for message in messages %}
+        <tr>
+            <td>{{message['Username']}}</td><td>"{{message['Message'] | safe }}"</td><td>{{message['Time']}}</td><td>{{message['Age']}}</td>
+        </tr>
+        {% endfor %} 
+    </table>
+{% endblock %}
+
+
+
